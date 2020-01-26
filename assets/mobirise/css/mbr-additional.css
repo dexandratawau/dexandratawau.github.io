@@ -2641,65 +2641,75 @@ body {
 .cid-rODPsnK6t2 .dropdown-item:hover {
   color: #767676 !important;
 }
-.cid-rOEITa0jQk {
+.cid-rOFvhwTHcg {
   padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ffffff;
 }
-.cid-rOEITa0jQk h2 {
-  text-align: left;
+.cid-rOFvhwTHcg h2 {
+  text-align: center;
 }
-.cid-rOEITa0jQk h4 {
-  text-align: left;
-  font-weight: 500;
+.cid-rOFvhwTHcg h3 {
+  text-align: center;
+  font-weight: 300;
 }
-.cid-rOEITa0jQk p {
+.cid-rOFvhwTHcg p {
   color: #767676;
-  text-align: left;
 }
-.cid-rOEITa0jQk .aside-content {
-  flex-basis: 100%;
-  -webkit-flex-basis: 100%;
+.cid-rOFvhwTHcg img {
+  object-fit: cover;
 }
-.cid-rOEITa0jQk .block-content {
+.cid-rOFvhwTHcg .block-content {
   display: -webkit-flex;
   flex-direction: column;
   -webkit-flex-direction: column;
-  word-break: break-word;
+  flex-basis: 100%;
+  -webkit-flex-basis: 100%;
 }
-.cid-rOEITa0jQk .media {
-  margin: initial;
-  align-items: center;
-  -webkit-align-items: center;
-}
-.cid-rOEITa0jQk .mbr-figure {
+.cid-rOFvhwTHcg .mbr-figure {
   align-self: flex-start;
   -webkit-align-self: flex-start;
-  -webkit-flex-shrink: 0;
   flex-shrink: 0;
+  -webkit-flex-shrink: 0;
 }
-.cid-rOEITa0jQk .card-img {
-  padding-right: 2rem;
-  width: auto;
+.cid-rOFvhwTHcg .media-container-row {
+  word-wrap: break-word;
+  word-break: break-word;
 }
-.cid-rOEITa0jQk .card-img span {
-  font-size: 72px;
+.cid-rOFvhwTHcg .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rOFvhwTHcg .card-title {
+  font-weight: 500;
+}
+.cid-rOFvhwTHcg .card-img {
+  text-align: inherit;
+}
+.cid-rOFvhwTHcg .card-img span {
+  font-size: 48px;
   color: #707070;
 }
 @media (min-width: 992px) {
-  .cid-rOEITa0jQk .mbr-figure {
-    padding-right: 4rem;
+  .cid-rOFvhwTHcg .mbr-figure {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    height: 100%;
   }
 }
 @media (max-width: 991px) {
-  .cid-rOEITa0jQk .mbr-figure {
-    padding-right: 0;
-    padding-bottom: 1rem;
-    margin-bottom: 2rem;
+  .cid-rOFvhwTHcg .mbr-figure {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
   }
 }
-@media (max-width: 300px) {
-  .cid-rOEITa0jQk .card-img span {
-    font-size: 40px !important;
+@media (max-width: 991px) and (min-width: 768px) {
+  .cid-rOFvhwTHcg .block-content {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+    text-align: center;
+  }
+  .cid-rOFvhwTHcg .block-content .card {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
   }
 }
